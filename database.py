@@ -99,7 +99,7 @@ def login():
             if validation:
                 s = smtplib.SMTP('smtp.gmail.com', 587) 
                 s.starttls() 
-                s.login("prajwalgarla143@gmail.com", "Prajwal@143")
+                s.login("prajwalgarla143@gmail.com", "Prajwalgarla@1408")
                 gen_otp= generateOTP() 
                 encrypt_otp= encrypt_password(gen_otp)
                 message =  "The OPT is {} ".format(gen_otp)
